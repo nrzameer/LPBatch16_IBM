@@ -10,7 +10,7 @@ public interface Driver {
 	// PATH 
 	String CHROME_PATH="D:\\Training\\Drivers\\chromedriver.exe";
 	String FIREFOX_PATH ="D:\\Training\\Drivers\\geckodriver.exe";
-	String IE_PATH ="";
+	String IE_PATH ="D:\\Training\\Drivers\\IEDriverServer.exe";
 	String PHANTOM_PATH="";
 	
 }
