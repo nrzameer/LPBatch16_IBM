@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-/**
+/** test
  * 
  * @author Naveen
  * @see this class will help when you want to do custom business logic, since  in POM we dont do 

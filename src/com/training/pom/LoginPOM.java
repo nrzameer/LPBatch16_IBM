@@ -13,6 +13,7 @@ public class LoginPOM {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	@FindBy(id="login")
 	private WebElement userName; 
 	
@@ -21,6 +22,8 @@ public class LoginPOM {
 	
 	@FindBy(id="form-login_submitAuth")
 	private WebElement loginBtn; 
+	
+	
 	
 	public void sendUserName(String userName) {
 		this.userName.clear();
