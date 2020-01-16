@@ -16,6 +16,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
+//test
 public class LoginTests {
 
 	private WebDriver driver;
@@ -48,7 +49,7 @@ public class LoginTests {
 		Thread.sleep(1000);
 		driver.quit();
 	}
-	@Test
+	@Test(priority=1)
 	public void validLoginTest() throws InterruptedException {
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
@@ -57,4 +58,5 @@ public class LoginTests {
 		Thread.sleep(5000);
 		//screenShot.captureScreenShot("First");
 	}
+	
 }
